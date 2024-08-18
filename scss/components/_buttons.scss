@@ -13,21 +13,21 @@
   }
   
   .default {
-    background-color: $color-tertiary;
+    @include color-fade($color-tertiary);
   }
   
   .error {
-    background-color: $color-btn-error;
+    @include color-fade($color-btn-error);
   }
   
   .info {
-    background-color: $color-btn-info;
+    @include color-fade($color-btn-info);
   }
   
   .success {
-    background-color: $color-btn-success;
+    @include color-fade($color-btn-success);
   }
   
   .warning {
-    background-color: $color-btn-warning;
+    @include color-fade($color-btn-warning);
   }

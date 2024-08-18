@@ -1,0 +1,21 @@
+/* Center block element */
+@mixin center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image margin and width */
+@mixin img-styling {
+    margin-top: 10px;
+    max-width: 100%; 
+}
+
+/* Background color transition */
+@mixin color-fade($color) {
+    background-color: $color;
+    transition: background-color 0.2s ease-in-out;
+    &:hover {
+        background-color: lighten($color, 15%);
+    }
+}

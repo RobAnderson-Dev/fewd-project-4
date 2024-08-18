@@ -7,6 +7,10 @@ $color-primary: #58e1c1;
 $color-secondary: #777;
 $color-tertiary: #51ddfc;
 
+/* Font Weights */
+$font-weight-med: 300;
+$font-weight-hvy: 700;
+
 /* Button Colors */
 $color-btn-text: #fff;
 $color-btn-error: #e4757a;
@@ -17,7 +21,23 @@ $color-btn-warning: #fd7856;
 /* Image Colors */
 $color-img-frame: #ccc;
 
+/* Grid Columns & Colors*/
+$grid-columns: 12;
+$grid-colors: 
+    #927bc1,
+    #fd7856,
+    #deb2ee,
+    #7ee6fd,
+    #88d9a0,
+    #4da2bb,
+    #ec9fa3,
+    #fd9f85,
+    #e4757a,
+    #63cc82,
+    #51ddfc,
+    #80e8d1;
+
 /* Media Query Breakpoint & Max-Width */
 $mq-breakpoint: 768px;
-$mq-max-width: 1400px;
+$mq-max-width: 1400px; 
 
